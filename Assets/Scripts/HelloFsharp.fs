@@ -1,6 +1,12 @@
 ﻿namespace FSharp
 open UnityEngine
 
+
 type HelloFsharp() =
     inherit MonoBehaviour()
-    member this.Start() = Debug.Log("Hello World! jdoi2");
+    [<DefaultValue>] val mutable mytext : string
+
+    member this.Start() = Debug.Log("Hello World! jdoi");
+    member this.Update() =
+
+        this.mytext <- Time.deltaTime.ToString()
