@@ -554,6 +554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1075566501}
   - component: {fileID: 1075566502}
+  - component: {fileID: 1075566503}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -586,3 +587,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mytext: 
+--- !u!114 &1075566503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1075566500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c66fbfc9e5214e33b2484708ff69e33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hello: {fileID: 1075566502}
+  uiText: {fileID: 1037521924}
